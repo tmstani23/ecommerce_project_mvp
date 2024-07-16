@@ -2,9 +2,10 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 // ProductDetail component to display detailed information about a single product
-const ProductDetail = ({ products }) => {
+const ProductDetail = ({ products, addToCart }) => {
   // Get the product ID from the URL parameters
   const { id } = useParams();
+  
   // Find the product that matches the ID
   const product = products.find(p => p.id === parseInt(id));
 
@@ -19,7 +20,8 @@ const ProductDetail = ({ products }) => {
       <img src={product.imageUrl} alt={product.name} />
       <p>{product.description}</p>
       <p>${product.price}</p>
-      <button>Add to Cart</button>
+      {/* Add to Cart button */}
+      <button onClick={() => addToCart(product)}>Add to Cart</button>
     </div>
   );
 };

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import productData from '../data/products.json'; // Direct import of JSON data
+import { Link } from 'react-router-dom';
+import productData from '../data/products.json'; // Import product data
 
 // ProductList component to display a list of products
 const ProductList = () => {
   const [products, setProducts] = useState([]);
 
-  // Load products from the imported JSON data
+  // Fetch products from the local JSON file when the component mounts
   useEffect(() => {
     setProducts(productData);
   }, []);
@@ -20,6 +21,8 @@ const ProductList = () => {
             <h2>{product.name}</h2>
             <p>{product.description}</p>
             <p>${product.price}</p>
+            {/* Link to ProductDetail page */}
+            <Link to={`/product/${product.id}`}>View Details</Link>
           </li>
         ))}
       </ul>
