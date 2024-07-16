@@ -1,0 +1,39 @@
+
+Project Title:
+
+E-commerce Platform MVP
+Project Summary:
+
+This project is a minimal viable product (MVP) for a basic e-commerce platform. It focuses on essential features such as product listing, shopping cart functionality, and a simplified checkout process. The frontend is developed using React, with data stored locally for simplicity.
+Core Features:
+
+    Product Listing and Detail Pages: Display a list of products and detailed views of each product.
+    Shopping Cart Functionality: Manage cart state, allowing users to add, update, and remove items.
+    Simplified Checkout Process: Capture user details and display a confirmation message (no actual payment processing).
+    Local Storage for Data Persistence: Persist cart data and user details using local storage.
+
+Current Progress:
+
+    Setup and Environment:
+        Initialized React project using Create React App.
+        Installed necessary dependencies including React Router.
+        Organized project directory structure.
+
+    Product Listing:
+        Created products.json file in src/data directory with sample product data.
+        Implemented ProductList component to display a list of products.
+        Implemented ProductDetail component to display detailed information about a selected product.
+
+    Shopping Cart:
+        Implemented ShoppingCart component to manage cart state.
+        Added functionality to add products to the cart from the ProductDetail page.
+        Displayed cart items with options to update quantities and remove items.
+        Persisted cart data using local storage.
+        Added total price calculation and display.
+        Added a "Purchase" button that navigates to the checkout page.
+
+    Checkout Process:
+        Implemented Checkout component to capture user details and display a summary of the cart.
+        Displayed a summary of the cart items with total price.
+        Included a form to capture user details.
+        Added a "Back to Cart" button to allow users to return and edit items.
