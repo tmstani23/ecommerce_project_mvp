@@ -78,16 +78,16 @@ Open your browser and navigate to `http://localhost:3000` to view the applicatio
 Here are some screenshots of the application:
 
 ### Home Page
-![Home Page](src/screenshots/homepage1.jpg)
+![Home Page](e-commerce-platform/src/screenshots/homepage1.jpg)
 
 ### Product List
-![Product List](src/screenshots/prodDetail1.jpg)
+![Product List](e-commerce-platform/src/screenshots/prodDetail1.jpg)
 
 ### Shopping Cart
-![Shopping Cart](src/screenshots/shoppingCart.jpg)
+![Shopping Cart](e-commerce-platform/src/screenshots/shoppingCart.jpg)
 
 ### Checkout Page
-![Checkout Page](src/screenshots/checkout.jpg)
+![Checkout Page](e-commerce-platform/src/screenshots/checkout.jpg)
 
 ## License
 
