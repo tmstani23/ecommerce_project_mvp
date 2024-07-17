@@ -1,0 +1,102 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply font-sans bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 text-gray-800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  @apply no-underline text-white hover:text-yellow-300 transition duration-300;
+}
+
+ul {
+  @apply list-none;
+}
+
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
+
+.card {
+  @apply bg-white p-6 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl;
+}
+
+button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300;
+}
+
+button.secondary {
+  @apply bg-gray-500 hover:bg-gray-700 text-white;
+}
+
+button.accent {
+  @apply bg-yellow-500 hover:bg-yellow-700 text-white;
+}
+
+input, textarea {
+  @apply w-full p-2 border rounded;
+}
+
+input:focus, textarea:focus {
+  @apply border-blue-500 outline-none;
+}
+
+.notification {
+  @apply fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white py-2 px-4 rounded shadow-lg transition duration-300;
+}
+
+section {
+  @apply py-6;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* Additional utility classes */
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.text-primary {
+  color: #1E3A8A;
+}
+
+.bg-primary {
+  background-color: #1E3A8A;
+}
+
+.border-primary {
+  border-color: #1E3A8A;
+}
+
+.text-secondary {
+  color: #64748B;
+}
+
+.bg-secondary {
+  background-color: #64748B;
+}
+
+.border-secondary {
+  border-color: #64748B;
+}
+
+.text-accent {
+  color: #D4AF37;
+}
+
+.bg-accent {
+  background-color: #D4AF37;
+}
+
+.border-accent {
+  border-color: #D4AF37;
+}

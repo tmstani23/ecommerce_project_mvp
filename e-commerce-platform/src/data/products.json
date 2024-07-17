@@ -1,16 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "description": "Description of Product 1",
-    "price": 100,
-    "imageUrl": "https://via.placeholder.com/150"
+    "name": "Vintage Leather Jacket",
+    "description": "A timeless classic, this vintage leather jacket is made from high-quality leather and features a stylish design that never goes out of fashion.",
+    "price": 250,
+    "imageUrl": "leather.jpg"
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "description": "Description of Product 2",
+    "name": "Smart Watch Series 5",
+    "description": "Stay connected and track your fitness goals with the Smart Watch Series 5. Features include heart rate monitoring, GPS, and seamless connectivity with your smartphone.",
+    "price": 199,
+    "imageUrl": "watch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Noise-Cancelling Headphones",
+    "description": "Experience unparalleled sound quality and block out unwanted noise with these premium noise-cancelling headphones. Perfect for travel, work, or relaxation.",
     "price": 150,
-    "imageUrl": "https://via.placeholder.com/150"
+    "imageUrl": "headphones.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Laptop",
+    "description": "Power through your favorite games with this high-performance gaming laptop. Equipped with the latest graphics card and a fast processor for smooth gameplay.",
+    "price": 1200,
+    "imageUrl": "laptop.jpg"
+  },
+  {
+    "id": 5,
+    "name": "4K Ultra HD TV",
+    "description": "Upgrade your home entertainment system with this 4K Ultra HD TV. Enjoy stunning picture quality and vibrant colors in every scene.",
+    "price": 800,
+    "imageUrl": "tv.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Espresso Machine",
+    "description": "Brew barista-quality espresso at home with this easy-to-use espresso machine. Features multiple settings for different coffee styles and a sleek, modern design.",
+    "price": 350,
+    "imageUrl": "espresso.jpg"
   }
 ]
