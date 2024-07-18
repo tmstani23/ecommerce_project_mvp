@@ -47,11 +47,10 @@ const ProductDetail = ({ addToCart }) => {
     <div className="container mx-auto px-4 py-6">
       {/* Notification */}
       {showNotification && (
-        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white py-2 px-4 rounded shadow-lg">
+        <div style={{ backgroundColor: '#14b8a6', color: 'white' }} className="fixed top-4 left-1/2 transform -translate-x-1/2 py-2 px-4 rounded shadow-lg">
           Item added to cart!
         </div>
       )}
-
       {/* Product name */}
       <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
 
@@ -84,7 +83,7 @@ const ProductDetail = ({ addToCart }) => {
             </button>
             <button
               onClick={() => navigate('/cart')}
-              className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
             >
               Continue to Shopping Cart
             </button>
